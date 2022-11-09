@@ -30,6 +30,8 @@ This is usually used to validate an email address. An example of this would be i
 The email regex uses the anchors `^` and `$`. The caret, `^`, denotes the start of the string and the `$` denotes the end of the string. 
 
 ### Quantifiers
+Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found. The quantifier `+` matches one or more times. The `+` is known as a *greedy operator* because it will match as many instances as possible
+
 
 ### OR Operator
 
@@ -50,5 +52,5 @@ The email regex uses the anchors `^` and `$`. The caret, `^`, denotes the start 
 ### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Trae Valdez - Funeral Empire, Inc.<br>
+[Github](http://www.github.com/traevaldez)
