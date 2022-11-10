@@ -34,7 +34,7 @@ Quantifiers specify how many instances of a character, group, or character class
 
 
 ### OR Operator
-The `[]` OR operator is used in this regex. For example, `[a-z0-9_\.-]` means letters `a-z`, numbers `0-9`, `_`, `.`, or `-`. The `\` is used to denote a literal `.` instead of the usual meaning of `.` which is "any character". 
+Not used in this regex.
 
 ### Character Classes
 The email regex uses the character class `\d` which denotes any digit character `0-9`. The backslash, or `\`, indicates tte character class which is distinct from a plain letter `d`.
@@ -46,14 +46,10 @@ The regex is enclosed bb two forward slash, or `/`, characters. These come befor
 Parenthesis, `()` are used to group parts of a regular expression together. In terms of the email regex, the username would be part of one group; the provider/domain name (for example, gmail) would be another group; and finally, the extension (ex. .com, .net, etc.) would be the last group. 
 
 ### Bracket Expressions
+Brackets, `[]`, allow a regex to match specific characters in a range. For example, `[a-z0-9_\.-]` means any letters a through, `a-z`; any numbers from zero through nine, `0-9`; or `_`, `.`, or `-`. The `\` is used to denote a literal `.` instead of the usual meaning of `.` which is "any character". 
 
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+A "greedy" quantifier, `*` tries to match an element as many times as possible while a non-greedy, or "lazy", quantifier tries to match an element as few times as possible. Using a question mark along with the asterisk, `*?`, can turn a greedy quantifier into a lazy quantifier. 
 
 ## Author
 Trae Valdez - Funeral Empire, Inc.<br>
